@@ -1,9 +1,9 @@
-import { StockLayout } from "./stockLayout";
+import { MarketLayout } from "./marketLayout";
 
 export const Applayout = () => {
-  return (
-    <div>
-        <StockLayout symbol="IBM" />
-    </div>
-  );
+    return (
+        <div>
+            <MarketLayout symbol="US" />
+        </div>
+    );
 };
