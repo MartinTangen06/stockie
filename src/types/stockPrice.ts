@@ -1,4 +1,4 @@
-export default interface Stock {
+export default interface stockPrice {
     c: number; // Current price
     dp: number; // Percentage change
     d: number; // Absolute change
@@ -6,4 +6,5 @@ export default interface Stock {
     l: number; // Low price of the day
     o: number; // Open price of the day
     pc: number; // Previous close price
+    t: number; // Timestamp
 }

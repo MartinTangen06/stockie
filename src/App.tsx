@@ -1,12 +1,14 @@
 import './App.css'
-import { Applayout } from './components/layouts/Applayout'
+import { Routes, Route } from 'react-router-dom'
+import { Home } from './pages/home'
+import { StockPage } from './pages/stockPage'
 
 function App() {
-
   return (
-    <>
-    <Applayout/>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/stock/:symbol" element={<StockPage />} />
+    </Routes>
   )
 }
 

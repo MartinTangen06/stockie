@@ -1,3 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+  --font-sans: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, system-ui;
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -10,11 +16,6 @@
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
@@ -33,7 +34,7 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #0e0e0e;
+    --bg: #000000;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
