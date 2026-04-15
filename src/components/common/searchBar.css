@@ -1,0 +1,8 @@
+.searchResultItem:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.searchResultsContainer {
+    background-color: #0a0a0a;
+}

@@ -6,7 +6,7 @@ export const OverviewLayout = () => {
             <div className="w-full float-left pl-20 m-0">
                 <h2 className="text-white font-bold text-2xl">Overview</h2>
             </div>
-            <div className="grid grid-cols-5 gap-3 p-10 items-center w-full m-0">
+            <div className="grid grid-cols-5 gap-3 p-5 items-center w-full m-0">
                     <StockBox symbol="AAPL" />
                     <StockBox symbol="GOOGL" />
                     <StockBox symbol="AMZN" />

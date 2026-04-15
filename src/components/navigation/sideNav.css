@@ -1,0 +1,17 @@
+.sideNavItem {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: white;
+}
+
+.sideNavItem:hover {
+    background-color: var(--social-bg);
+    color: var(--accent);
+}
+
+.active {
+    background-color: var(--code-bg);
+    color: var(--accent);
+}

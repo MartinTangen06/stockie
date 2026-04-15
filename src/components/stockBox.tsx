@@ -27,7 +27,7 @@ export const StockBox = ({ symbol }: { symbol: string }) => {
 
     return (
         <Link to={`/stock/${symbol}`} className="w-full no-underline">
-            <div className="w-full h-13 flex justify-center items-center pt-7 pb-7 pl-3 pr-3 gap-2.5 bg-[#121212] rounded-xl cursor-pointer">
+            <div className="w-full h-13 flex justify-center items-center pt-7 pb-7 pl-3 pr-3 gap-2.5 bg-[#12121284] rounded-xl cursor-pointer">
                 <div className="flex justify-between items-center w-full gap-2">
                     <div className="flex items-center gap-2.5">
                         <img className="w-8.75 rounded-xl m-0" src={stock?.logo} alt={`${stock?.name} logo`} />
